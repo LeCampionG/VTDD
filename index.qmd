@@ -110,11 +110,11 @@ Principe 2 : **Toujours il existe de la variation aussi minime soit-elle.**
 :::
 
 ::: {style="font-size: 0.6em;margin-top:20px;"}
-Principe 3 : **Il existe quasiment toujours des mécanismes généraux qui permettent d’analyser et d’expliquer la variation.**
+Principe 3 : **Il existe quasiment toujours des mécanismes généraux qui permettent d'analyser et d'expliquer la variation.**
 :::
 
 ::: {style="font-size: 0.6em;margin-top:0px;color:#3498db;"}
-**La statistique est donc l’étude quantifiée de cette variation.**
+**La statistique est donc l'étude quantifiée de cette variation.**
 :::
 
 ::: {style="font-size: 0.6em;margin-top:0px;color:#3498db;"}
@@ -230,7 +230,7 @@ Une multitude de travaux ont donc tenté de donner une définition (plus ou moin
 <br/>
 
 ::: {style="font-size: 0.8em;margin-top:10px;"}
-Peu importe la définition il faut retenir que la donnée en statistique n’existe pas dans la nature de façon imanente.
+Peu importe la définition il faut retenir que la donnée en statistique n'existe pas dans la nature de façon imanente.
 :::
 
 <br/>
@@ -238,7 +238,7 @@ Peu importe la définition il faut retenir que la donnée en statistique n’exi
 ::: {style="font-size: 0.6em;margin-top:10px;"}
 Les données ne sont pas données, il faut les construire, les prendre!
 
-> Elles requièrent en amont un travail de modélisation, d’abstraction, de spécification des concepts, puis des domaines, avant d’imaginer produire des valeurs. Elles sont dépendantes de choix eux-mêmes liés à des usages.
+> Elles requièrent en amont un travail de modélisation, d'abstraction, de spécification des concepts, puis des domaines, avant d'imaginer produire des valeurs. Elles sont dépendantes de choix eux-mêmes liés à des usages.
 :::
 
 ------------------------------------------------------------------------
@@ -292,14 +292,14 @@ Une variable qualitative indique des **caractéristiques qui ne sont pas des qua
 ::: {style="font-size: 0.6em;margin-top:10px;"}
 Elle peut être :
 
--   **ordonnée** : elle va exprimer un ordre. Exemple : “un peu - beaucoup - passionément”
--   **non ordonnée** : elle va exprimer l'appartenance à différents groupe Exemple : une couleur, un groupe sanguin…
+-   **ordonnée** : elle va exprimer un ordre. Exemple : "un peu - beaucoup - passionément"
+-   **non ordonnée** : elle va exprimer l'appartenance à différents groupe Exemple : une couleur, un groupe sanguin...
 :::
 
 ::: {style="font-size: 0.6em;margin-top:10px;"}
 Une variable qualitative ne permet pas de faire des calculs.
 
-> La moyenne d’un groupe sanguin n’a aucun sens.
+> La moyenne d'un groupe sanguin n'a aucun sens.
 
 En revanche, on pourra faire des tableaux de fréquence.
 
@@ -461,7 +461,7 @@ C'est la confusion entre [**LA**]{style="color:#3498db;"} Statistique et [**LES*
 <br>
 
 ::: {style="font-size: 0.6em;margin-top:20px;" fig-align="center"}
-*« Il y a trois sortes de mensonges : les mensonges, les sacrés mensonges et les statistiques » – Mark Twain.*
+*« Il y a trois sortes de mensonges : les mensonges, les sacrés mensonges et les statistiques » -- Mark Twain.*
 :::
 
 ------------------------------------------------------------------------
@@ -505,7 +505,7 @@ Les dirigeants de l'entreprise : $$\left\{
 <br>
 
 ::: {style="font-size: 0.6em;margin-top:20px;" fig-align="center"}
-*« Les statistiques ont une particularité majeure : elles ne sont jamais les mêmes selon qu’elles sont avancées par un homme de gauche ou par un homme de droite » – Jacques Maillot.*
+*« Les statistiques ont une particularité majeure : elles ne sont jamais les mêmes selon qu'elles sont avancées par un homme de gauche ou par un homme de droite » -- Jacques Maillot.*
 :::
 
 ------------------------------------------------------------------------
@@ -599,13 +599,13 @@ C'est un paradoxe assez connu et très contre-intuitif qu'il est absolument néc
 :::
 
 ::: {style="font-size: 0.7em;margin-top:20px;"}
-**Chez les femmes non-fumer tue!** <br/> Une étude suit 1314 femmes pendant 20 ans, l’objectif est de comparer le taux de mortalité des fumeuses et des non-fumeuses. Après 20 ans, le taux de mortalité chez les fumeuses était de 24%, alors que celui des non-fumeuses était 31%. <br/> Est-ce que ne pas fumer tue ?
+**Chez les femmes non-fumer tue!** <br/> Une étude suit 1314 femmes pendant 20 ans, l'objectif est de comparer le taux de mortalité des fumeuses et des non-fumeuses. Après 20 ans, le taux de mortalité chez les fumeuses était de 24%, alors que celui des non-fumeuses était 31%. <br/> Est-ce que ne pas fumer tue ?
 
-Dans l’étude, il y avait 582 fumeuses et 139 sont mortes (cela fait bien 24%), ainsi que 732 non-fumeuses dont 230 sont mortes (31%, pas de problème).
+Dans l'étude, il y avait 582 fumeuses et 139 sont mortes (cela fait bien 24%), ainsi que 732 non-fumeuses dont 230 sont mortes (31%, pas de problème).
 :::
 
 ::: {style="font-size: 0.7em;margin-top:20px;"}
-**Là où le paysage change, c’est quand on représente ces chiffres en séparant par classe d’âge.**
+**Là où le paysage change, c'est quand on représente ces chiffres en séparant par classe d'âge.**
 :::
 
 ------------------------------------------------------------------------
@@ -615,7 +615,7 @@ Dans l’étude, il y avait 582 fumeuses et 139 sont mortes (cela fait bien 24%)
 ![](images/simpson_01.png)
 
 ::: {style="font-size: 0.6em;margin-top:20px;"}
-Si on raisonne par classe d’âge, dans chaque tranche la mortalité chez les fumeuses a été supérieure à celle des non-fumeuses. <br> Dans la population initiale, il y avait plus de femmes âgées chez les non-fumeuses que chez les fumeuses. Et même si dans chaque tranche d’âge les non-fumeuses meurent moins, cet effet est compensé par le fait que la tranche d’âge « élevée » est sur-représentée chez les non-fumeuses…qui donc en moyenne meurent plus!
+Si on raisonne par classe d'âge, dans chaque tranche la mortalité chez les fumeuses a été supérieure à celle des non-fumeuses. <br> Dans la population initiale, il y avait plus de femmes âgées chez les non-fumeuses que chez les fumeuses. Et même si dans chaque tranche d'âge les non-fumeuses meurent moins, cet effet est compensé par le fait que la tranche d'âge « élevée » est sur-représentée chez les non-fumeuses...qui donc en moyenne meurent plus!
 :::
 
 ------------------------------------------------------------------------
@@ -623,15 +623,15 @@ Si on raisonne par classe d’âge, dans chaque tranche la mortalité chez les f
 ## Le paradoxe de Simpson III
 
 ::: {style="font-size: 0.8em;margin-top:20px;"}
-**Le paradoxe de Simpson c'est quand une corrélation, un lien peut disparaître ou même s’inverser suivant que l’on considère les données dans leur ensemble, ou bien segmentées par groupes.**
+**Le paradoxe de Simpson c'est quand une corrélation, un lien peut disparaître ou même s'inverser suivant que l'on considère les données dans leur ensemble, ou bien segmentées par groupes.**
 :::
 
 ::: {style="font-size: 0.8em;margin-top:20px;"}
 Pour que le paradoxe se produise, il faut 2 ingrédients :
 
--   Premièrement il faut une variable qui influe sur le résultat final (le « groupe »), et qui n’est pas forcément explicitée au départ. On appelle cela un facteur de confusion. \> Il s’agit de l’âge des personnes dans notre exemple, lequel évidemment joue sur la mortalité.
+-   Premièrement il faut une variable qui influe sur le résultat final (le « groupe »), et qui n'est pas forcément explicitée au départ. On appelle cela un facteur de confusion. \> Il s'agit de l'âge des personnes dans notre exemple, lequel évidemment joue sur la mortalité.
 
--   Deuxièmement, il faut que l’échantillon qu’on étudie ne soit pas distribué de manière homogène. \> Dans le cas du tabac, il y a plus de vieilles femmes dans l’échantillon des non-fumeuses que chez les fumeuses.
+-   Deuxièmement, il faut que l'échantillon qu'on étudie ne soit pas distribué de manière homogène. \> Dans le cas du tabac, il y a plus de vieilles femmes dans l'échantillon des non-fumeuses que chez les fumeuses.
 :::
 
 ------------------------------------------------------------------------
@@ -645,7 +645,7 @@ Pour que le paradoxe se produise, il faut 2 ingrédients :
 <br/>
 
 ::: {style="font-size: 0.8em;margin-top:20px;"}
-On peut vous faire croire à quelque chose (le chômage a baissé, tel traitement marche mieux, tel individu est meilleur, etc.) alors qu’en regardant les chiffres dans le détail, les effets peuvent disparaître ou s’inverser !
+On peut vous faire croire à quelque chose (le chômage a baissé, tel traitement marche mieux, tel individu est meilleur, etc.) alors qu'en regardant les chiffres dans le détail, les effets peuvent disparaître ou s'inverser !
 :::
 
 ------------------------------------------------------------------------
@@ -665,7 +665,7 @@ Le biais d'échantillonnage se produit quand votre échantillon ne représente p
 ## Le biais d'échantillonnage II
 
 ::: {style="font-size: 0.6em; margin-top:0px;"}
-Les méfaits des fluctuations d ’échantillonnage.
+Les méfaits des fluctuations d 'échantillonnage.
 
 -   A : Deux échantillons, même fort différents, ne proviennent pas nécessairement de deux populations différentes.
 
@@ -686,8 +686,8 @@ Les méfaits des fluctuations d ’échantillonnage.
 
 ## Types de biais d'échantillonnage courants
 
-::::::::: columns
-::::: {.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ::: {style="font-size: 0.75em;"}
 **1. Biais de sélection**
 
@@ -705,9 +705,9 @@ Certains groupes refusent plus de participer.
 
 *Exemple :* Les mécontents répondent plus aux enquêtes de satisfaction
 :::
-:::::
+:::
 
-::::: {.column width="50%"}
+::: {.column width="50%"}
 ::: {style="font-size: 0.75em;"}
 **3. Biais de volontariat**
 
@@ -725,8 +725,8 @@ On interroge les personnes faciles d'accès.
 
 *Exemple :* Enquête uniquement dans votre université : science WEIRD
 :::
-:::::
-:::::::::
+:::
+:::
 
 ------------------------------------------------------------------------
 
@@ -763,7 +763,7 @@ Ces services ne sont pas une spécificité française, et ils existent aussi au 
 ::: {style="font-size: 0.8em; margin-top:0px;"}
 Attention il ne faut pas confondre les services de statistique publique et la statistique publique dont la définition en France et en Europe est inscrite dans la loi :
 
-> La statistique publique c'est *l’ensemble des productions issues d’une part des enquêtes statistiques et, d’autre part, de l’exploitation, à des fins d’information générale, de données collectées par des administrations, des organismes publics ou des organismes privés chargés d’une mission de service public.*
+> La statistique publique c'est *l'ensemble des productions issues d'une part des enquêtes statistiques et, d'autre part, de l'exploitation, à des fins d'information générale, de données collectées par des administrations, des organismes publics ou des organismes privés chargés d'une mission de service public.*
 :::
 
 <br/>
@@ -788,7 +788,7 @@ Il est donc indispensables de savoir d'où viennent les informations récupéré
 Voici un liste non exhaustive de sources fiables sur lesquelles vous pouvez vous reposer afin de trouver des ressources et des données.
 :::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: {style="font-size: 0.6em;"}
 En France :
 
@@ -796,9 +796,9 @@ En France :
 -   [**Etalab**](https://www.etalab.gouv.fr/)
 -   [**data.gouv**](https://www.data.gouv.fr/fr/)
 :::
-::::
+:::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: {style="font-size: 0.6em;"}
 En Europe :
 
@@ -810,7 +810,7 @@ Dans le monde :
 
 -   [**United nations statistic division**](https://unstats.un.org/home/)\]
 :::
-::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -1047,7 +1047,7 @@ Calcul étape par étape : 12+14+10+16+8 = 60, puis 60÷5 = 12. La moyenne est t
 
 ## La médiane
 
-::::::: {style="font-size: 0.70em;margin-top:10px;"}
+::: {style="font-size: 0.70em;margin-top:10px;"}
 ::: {.callout-tip icon="false"}
 ## Définition
 
@@ -1069,12 +1069,12 @@ Médiane = **1700 €** (valeur centrale)
 Moyenne = 2320 € (tirée vers le haut par 5000)
 :::
 
-:::: fragment
+::: fragment
 ::: callout-note
 La médiane est plus robuste que la moyenne !
 :::
-::::
-:::::::
+:::
+:::
 
 ::: notes
 La médiane est la valeur qui partage les données en deux groupes égaux : 50% des observations sont en dessous, 50% au-dessus. Méthode : ranger les valeurs dans l'ordre croissant, puis prendre celle du milieu. Si le nombre d'observations est pair, on prend la moyenne des deux valeurs centrales. La médiane présente l'avantage majeur d'être insensible aux valeurs extrêmes, contrairement à la moyenne.
@@ -1096,25 +1096,25 @@ Les valeurs sont déjà ordonnées. La médiane est 1700€ (3ème valeur sur 5)
 
 ## Décrire une distrubition
 
-::::::: columns
-:::: {.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ::: r-stack
 ![](images\distrib1.png){fig-align="left" width="100%" style="margin-top:10px; margin-bottom:0px"}
 :::
-::::
+:::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: r-stack
 ![](images\histo1.png){fig-align="left" width="100%" style="margin-top:10px; margin-bottom:0px"}
 :::
-::::
-:::::::
+:::
+:::
 
-:::: fragment
+::: fragment
 ::: r-stack
 ![](images\diff_distrib.png){fig-align="center" width="50%" style="margin-top:20px; margin-bottom:0px"}
 :::
-::::
+:::
 
 ------------------------------------------------------------------------
 
@@ -1282,15 +1282,12 @@ hist(donnees2, main = "Fort écart-type (σ=15)",
 ```
 
 ::: notes
--   Graphique TRÈS PÉDAGOGIQUE - bien le commenter !
--   À gauche : faible écart-type (5) → les barres sont concentrées autour de 50
--   À droite : fort écart-type (15) → les barres sont très étalées
+-   À gauche : faible écart-type (5) : les barres sont concentrées autour de 50
+-   À droite : fort écart-type (15) : les barres sont très étalées
 -   Même moyenne (50) mais distributions très différentes !
--   Pointer avec le curseur/laser : "Voyez comme celle de gauche est resserrée ?"
--   Analogie : "Gauche = tout le monde est d'accord. Droite = opinions très diverses"
+-   Gauche = tout le monde est d'accord. Droite = opinions très diverses
 -   Application pratique : "Dans un questionnaire de satisfaction, un faible écart-type montre un consensus"
--   Demander : "Dans quel groupe les individus se ressemblent le plus ?" → Gauche !
--   Bon moment pour une courte pause (2 min) si ça fait longtemps
+-    Le groupe où les individus se ressemblent le plus est ce lui de Gauche
 :::
 
 ------------------------------------------------------------------------
@@ -1784,7 +1781,7 @@ Il faut faire des **tests post-hoc** pour savoir quels groupes diffèrent
 -   Nouveau type d'analyse : deux variables QUANTITATIVES (pas de groupes)
 -   La corrélation MESURE la force et la direction d'une relation
 -   Différence avec les tests précédents : ici on ne compare pas des groupes, on étudie si deux choses varient ensemble
--   Très utilisé en psychologie, sociologie, économie
+-   Très utilisé, ne serait ce que pour vérifier les risques de multicolinéarité !
 :::
 
 ------------------------------------------------------------------------
@@ -1907,7 +1904,7 @@ abline(lm(y ~ x), col = "red", lwd = 2)
 
 ## Attention aux pièges ! (1/2)
 
-::::: {style="font-size: 0.80em;margin-top:10px;"}
+::: {style="font-size: 0.80em;margin-top:10px;"}
 ::: callout-warning
 ## Corrélation ≠ Causalité
 :::
@@ -1921,18 +1918,18 @@ Corrélation entre vente de glaces et noyades
 
 (Ce n'est pas la glace qui cause les noyades !)
 :::
-:::::
+:::
 
 ::: r-stack
 ![](images\spurious_corr.png){fig-align="center" width="75%" style="margin-top:0px; margin-bottom:0px"}
 :::
 
 ::: notes
--   DIAPO ABSOLUMENT CRUCIALE
+-   DIAPO IMPORTANTE
 -   L'erreur n°1 en statistiques : confondre corrélation et causalité
 -   Exemple glaces/noyades : vraie corrélation observée, mais pas de lien causal
 -   Variable cachée : la TEMPÉRATURE (été) cause les deux
--   Autres exemples à donner : Corrélation entre taille et capacité en maths chez les enfants → âge est la variable cachée
+-   Autres exemples  : Corrélation entre taille et capacité en maths chez les enfants → âge est la variable cachée
     -   Corrélation entre nombre de pompiers et dégâts d'incendie → gravité de l'incendie est la variable cachée
 -   Règle d'or : La corrélation montre qu'il y a un LIEN, mais ne dit PAS qui cause quoi
 -   Pour établir la causalité : il faut une expérience contrôlée ou un raisonnement théorique solide
@@ -2061,14 +2058,13 @@ Y = 25 000 + 2 000 × 5 = **35 000 €**
 :::
 
 ::: notes
--   DIAPO CRUCIALE pour comprendre l'utilité de la régression
+-   DIAPO IMPORTANTE pour comprendre la lecture de la régression
 -   Coefficients a et b sont calculés par le logiciel, nous devons les INTERPRÉTER
 -   a (intercept, ordonnée à l'origine) : valeur de Y quand X = 0
     -   Ici : quelqu'un sans expérience gagne 25 000€
     -   Attention : si X=0 n'a pas de sens dans le contexte, a n'a qu'une valeur technique
 -   b (pente, coefficient) : effet de X sur Y
     -   Ici : chaque année supplémentaire ajoute 2 000€ au salaire
-    -   C'est LE chiffre le plus important !
 :::
 
 ------------------------------------------------------------------------
@@ -2087,7 +2083,7 @@ $$R^2 = 1 - \frac{\text{Variance résiduelle}}{\text{Variance totale}}$$
 -   R² = 0,75 → le modèle explique **75%** de la variabilité de Y
 
 ::: notes
--   R² (R-carré ou R-deux) : mesure la QUALITÉ du modèle
+-   R² (R-carré ou R-deux) : est en quelque sorte un indicateur de la qualité du modèle
 -   Interprétation : % de variance de Y expliquée par X
 -   R² = 0 : le modèle n'explique rien (X ne sert à rien)
 -   R² = 1 : le modèle explique tout (prédictions parfaites)
@@ -2108,7 +2104,7 @@ $$R^2 = 1 - \frac{\text{Variance résiduelle}}{\text{Variance totale}}$$
 | \> 0,8    | Excellent modèle |
 
 ::: callout-note
-En SHS, un R² de 0,3-0,5 n'est pas rare !
+En SHS, un R² de 0,3-0,5 n'est pas rare.
 :::
 
 ------------------------------------------------------------------------
@@ -2132,18 +2128,17 @@ La régression linéaire nécessite :
 
 -   Ne pas extrapoler au-delà des données
 -   Vérifier les hypothèses du modèle
--   Une corrélation forte ne garantit pas une bonne prédiction
+-  Une corrélation forte ne garantit pas une bonne prédiction
 -   Attention aux valeurs extrêmes (outliers)
 
-------------------------------------------------------------------------
+
+---
 
 ## C'est fini ! {background-color="#2c3e50"}
 
 ::: r-stack
 ![](images/ouf.gif){width="600"}
 :::
-
-
 
 # Tableau Récapitulatif
 
@@ -2175,7 +2170,6 @@ Mes deux variables sont-elles qualitatives ?
                 └─ Prédire → Régression
 ```
 
-
 # Conseils Pratiques
 
 ------------------------------------------------------------------------
@@ -2203,7 +2197,7 @@ Mes deux variables sont-elles qualitatives ?
 -   Contextualiser les résultats
 -   Mentionner les limites
 
-------------------------------------------------------------------------
+---
 
 ## Significativité statistique ≠ Importance
 
