@@ -14,3 +14,10 @@ Le module propose une évaluation reposant sur la remise de rendus intermédiair
 | Statistiques descriptives                                    | 5pts   | Production des premiers indicateurs et leur interprétation |
 | Statistiques bivariées                       | 8pts   | Production de stats, choix du test,  hypothèses, interpétations                            |
 | Figures                      | 2pts   | Production de figures pour illustrer vos données et vos analyses                            |
+
+
+## Outils
+
+Lien vers jamovi : https://www.jamovi.org/download.html
+
+Lien vers Flourish : https://app.flourish.studio/login
