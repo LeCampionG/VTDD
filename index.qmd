@@ -686,8 +686,8 @@ Les méfaits des fluctuations d 'échantillonnage.
 
 ## Types de biais d'échantillonnage courants
 
-::: columns
-::: {.column width="50%"}
+::::::::: columns
+::::: {.column width="50%"}
 ::: {style="font-size: 0.75em;"}
 **1. Biais de sélection**
 
@@ -705,9 +705,9 @@ Certains groupes refusent plus de participer.
 
 *Exemple :* Les mécontents répondent plus aux enquêtes de satisfaction
 :::
-:::
+:::::
 
-::: {.column width="50%"}
+::::: {.column width="50%"}
 ::: {style="font-size: 0.75em;"}
 **3. Biais de volontariat**
 
@@ -725,8 +725,8 @@ On interroge les personnes faciles d'accès.
 
 *Exemple :* Enquête uniquement dans votre université : science WEIRD
 :::
-:::
-:::
+:::::
+:::::::::
 
 ------------------------------------------------------------------------
 
@@ -788,7 +788,7 @@ Il est donc indispensables de savoir d'où viennent les informations récupéré
 Voici un liste non exhaustive de sources fiables sur lesquelles vous pouvez vous reposer afin de trouver des ressources et des données.
 :::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: {style="font-size: 0.6em;"}
 En France :
 
@@ -796,9 +796,9 @@ En France :
 -   [**Etalab**](https://www.etalab.gouv.fr/)
 -   [**data.gouv**](https://www.data.gouv.fr/fr/)
 :::
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: {style="font-size: 0.6em;"}
 En Europe :
 
@@ -810,7 +810,7 @@ Dans le monde :
 
 -   [**United nations statistic division**](https://unstats.un.org/home/)\]
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -1047,7 +1047,7 @@ Calcul étape par étape : 12+14+10+16+8 = 60, puis 60÷5 = 12. La moyenne est t
 
 ## La médiane
 
-::: {style="font-size: 0.70em;margin-top:10px;"}
+::::::: {style="font-size: 0.70em;margin-top:10px;"}
 ::: {.callout-tip icon="false"}
 ## Définition
 
@@ -1069,12 +1069,12 @@ Médiane = **1700 €** (valeur centrale)
 Moyenne = 2320 € (tirée vers le haut par 5000)
 :::
 
-::: fragment
+:::: fragment
 ::: callout-note
 La médiane est plus robuste que la moyenne !
 :::
-:::
-:::
+::::
+:::::::
 
 ::: notes
 La médiane est la valeur qui partage les données en deux groupes égaux : 50% des observations sont en dessous, 50% au-dessus. Méthode : ranger les valeurs dans l'ordre croissant, puis prendre celle du milieu. Si le nombre d'observations est pair, on prend la moyenne des deux valeurs centrales. La médiane présente l'avantage majeur d'être insensible aux valeurs extrêmes, contrairement à la moyenne.
@@ -1096,25 +1096,25 @@ Les valeurs sont déjà ordonnées. La médiane est 1700€ (3ème valeur sur 5)
 
 ## Décrire une distrubition
 
-::: columns
-::: {.column width="50%"}
+::::::: columns
+:::: {.column width="50%"}
 ::: r-stack
 ![](images\distrib1.png){fig-align="left" width="100%" style="margin-top:10px; margin-bottom:0px"}
 :::
-:::
+::::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 ::: r-stack
 ![](images\histo1.png){fig-align="left" width="100%" style="margin-top:10px; margin-bottom:0px"}
 :::
-:::
-:::
+::::
+:::::::
 
-::: fragment
+:::: fragment
 ::: r-stack
 ![](images\diff_distrib.png){fig-align="center" width="50%" style="margin-top:20px; margin-bottom:0px"}
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -1287,7 +1287,7 @@ hist(donnees2, main = "Fort écart-type (σ=15)",
 -   Même moyenne (50) mais distributions très différentes !
 -   Gauche = tout le monde est d'accord. Droite = opinions très diverses
 -   Application pratique : "Dans un questionnaire de satisfaction, un faible écart-type montre un consensus"
--    Le groupe où les individus se ressemblent le plus est ce lui de Gauche
+-   Le groupe où les individus se ressemblent le plus est ce lui de Gauche
 :::
 
 ------------------------------------------------------------------------
@@ -1904,7 +1904,7 @@ abline(lm(y ~ x), col = "red", lwd = 2)
 
 ## Attention aux pièges ! (1/2)
 
-::: {style="font-size: 0.80em;margin-top:10px;"}
+::::: {style="font-size: 0.80em;margin-top:10px;"}
 ::: callout-warning
 ## Corrélation ≠ Causalité
 :::
@@ -1918,7 +1918,7 @@ Corrélation entre vente de glaces et noyades
 
 (Ce n'est pas la glace qui cause les noyades !)
 :::
-:::
+:::::
 
 ::: r-stack
 ![](images\spurious_corr.png){fig-align="center" width="75%" style="margin-top:0px; margin-bottom:0px"}
@@ -1929,7 +1929,7 @@ Corrélation entre vente de glaces et noyades
 -   L'erreur n°1 en statistiques : confondre corrélation et causalité
 -   Exemple glaces/noyades : vraie corrélation observée, mais pas de lien causal
 -   Variable cachée : la TEMPÉRATURE (été) cause les deux
--   Autres exemples  : Corrélation entre taille et capacité en maths chez les enfants → âge est la variable cachée
+-   Autres exemples : Corrélation entre taille et capacité en maths chez les enfants → âge est la variable cachée
     -   Corrélation entre nombre de pompiers et dégâts d'incendie → gravité de l'incendie est la variable cachée
 -   Règle d'or : La corrélation montre qu'il y a un LIEN, mais ne dit PAS qui cause quoi
 -   Pour établir la causalité : il faut une expérience contrôlée ou un raisonnement théorique solide
@@ -2128,8 +2128,266 @@ La régression linéaire nécessite :
 
 -   Ne pas extrapoler au-delà des données
 -   Vérifier les hypothèses du modèle
--  Une corrélation forte ne garantit pas une bonne prédiction
+-   Une corrélation forte ne garantit pas une bonne prédiction
 -   Attention aux valeurs extrêmes (outliers)
+
+------------------------------------------------------------------------
+
+## L'Autocorrélation Spatiale {.center}
+
+------------------------------------------------------------------------
+
+## Définition
+
+L'autocorrélation spatiale mesure la **similitude** entre observations voisines :
+
+-   **Positive** : les valeurs similaires sont proches
+-   **Négative** : les valeurs dissimilaires sont proches
+-   **Nulle** : distribution aléatoire dans l'espace
+
+------------------------------------------------------------------------
+
+## Représentation
+
+![](images/NotionAutocorrSpatiale.png){width="35%" fig-align="center"}
+
+::: aside
+*Figure tirée de Apparicio P. et J. Gelb (2024). Méthodes d’analyse spatiales : un grand bol d’R. Université de Sherbrooke, Département de géomatique appliquée. fabriqueREL. Licence CC BY-SA*
+:::
+
+::: notes
+**Autocorrélation positive** (le cas le plus fréquent) : Les prix immobiliers élevés sont regroupés dans certains quartiers, les prix faibles dans d'autres. Visuellement, je vois des "taches" sur une carte. C'est la traduction statistique de la loi de Tobler.
+
+**Autocorrélation négative** (plus rare) : Les valeurs opposées sont côte à côte, comme un damier. Exemple théorique : alternance de zones riches et pauvres. En pratique, assez rare dans les phénomènes sociaux ou économiques.
+
+**Absence d'autocorrélation** : La position n'a pas d'importance. C'est comme si j'avais mélangé au hasard les valeurs sur la carte. C'est l'hypothèse de la régression classique.
+
+**Mise en garde** : L'autocorrélation n'est pas "bien" ou "mal", c'est une caractéristique des données qu'il faut identifier et prendre en compte.
+:::
+
+------------------------------------------------------------------------
+
+## La matrice de poids spatiaux (1/2)
+
+Pour mesurer l'autocorrélation, il faut définir le **voisinage** :
+
+**Matrice W** : qui est voisin de qui ?
+
+-   $w_{ij} = 1$ si i et j sont voisins
+-   $w_{ij} = 0$ sinon
+
+::: notes
+**Analogie** : Imaginez que je crée un réseau social géographique. La matrice W dit qui est "ami" avec qui basé sur la proximité géographique. Si deux communes sont voisines, W = 1 (elles sont "amies"). Sinon W = 0.
+
+Pour calculer l'autocorrélation, je dois comparer chaque observation avec ses voisins. Mais qui sont ses voisins ? C'est ce que définit la matrice W. C'est une matrice n×n où n est le nombre d'observations.
+
+**Mise en garde** : Il n'y a pas UNE SEULE façon de définir le voisinage. C'est un choix méthodologique. En pratique avec R, des fonctions calculent automatiquement cette matrice, vous n'aurez pas à la construire à la main.
+:::
+
+------------------------------------------------------------------------
+
+## La matrice de poids spatiaux (2/2)
+
+### Différentes définitions du voisinage
+
+![](images/voisin.png){width="35%" fig-align="center"}
+
+::: aside
+*Figure issue de Feuillet, T., Cossart, É. et Commenges, H. (2019). Manuel de géographie quantitative : Concepts, outils, méthodes. Armand Colin.*
+:::
+
+::: notes
+**Contiguïté Reine** : Analogie avec les échecs - la reine peut bouger en diagonale. Deux communes sont voisines si elles partagent un côté OU un coin. Pour une commune au centre d'une grille, la reine donne 8 voisins.
+
+**Contiguïté Tour** : La tour ne bouge que horizontalement/verticalement. Deux communes sont voisines uniquement si elles partagent un côté. Pour une commune au centre, la tour donne seulement 4 voisins.
+
+**Distance** : Je fixe un seuil (ex: 50 km). Toutes les communes à moins de 50 km sont voisines. **Mise en garde** : Certains points peuvent n'avoir aucun voisin si je choisis mal le seuil.
+
+**k plus proches voisins** : Chaque observation a exactement k voisins (les k plus proches). Exemple : k=5 signifie que chaque commune a ses 5 communes les plus proches comme voisines.
+
+Pour débuter, la contiguïté reine est souvent un bon choix pour des données communales/régionales.
+:::
+
+---
+
+
+## L'indice de Moran (I de Moran)
+
+$$I = \frac{n}{\sum_{i}\sum_{j}w_{ij}} \times \frac{\sum_{i}\sum_{j}w_{ij}(x_i - \bar{x})(x_j - \bar{x})}{\sum_{i}(x_i - \bar{x})^2}$$
+
+-   **I \> 0** : autocorrélation positive
+-   **I ≈ 0** : pas d'autocorrélation
+-   **I \< 0** : autocorrélation négative
+
+::: notes
+L'objectif n'est pas que vous reteniez cette formule par cœur, mais que vous compreniez l'intuition. Le numérateur $(x_i - \bar{x})(x_j - \bar{x})$ mesure si i et j s'écartent de la moyenne dans le même sens. Si les deux sont au-dessus de la moyenne (ou les deux en-dessous), le produit est positif. Le $w_{ij}$ pondère selon le voisinage : je ne compare que les voisins.
+
+**Analogie** : C'est un peu comme un coefficient de corrélation entre une variable et elle-même décalée spatialement. D'où le terme "autocorrélation".
+
+L'indice de Moran compare la variabilité entre voisins à la variabilité globale. Si les voisins sont très similaires, I sera élevé. Théoriquement, I est entre -1 et +1 comme une corrélation. En pratique, I proche de 0 suggère une distribution aléatoire. Avec R, le calcul est automatique.
+:::
+
+------------------------------------------------------------------------
+
+## Interprétation de l'I de Moran
+
+**Test d'hypothèse** :
+
+-   H₀ : distribution spatiale aléatoire (I = 0)
+-   H₁ : autocorrélation spatiale
+
+**En pratique** :
+
+-   Calcul de l'indice I
+-   Test de significativité (permutations)
+-   p-value pour rejeter H₀
+
+::: notes
+Calculer l'indice I ne suffit pas, il faut tester s'il est significativement différent de 0. H₀ : il n'y a pas d'autocorrélation, la distribution est aléatoire. Si I est significativement différent de 0, je rejette H₀.
+
+Le test par permutations fonctionne ainsi : je calcule l'I observé sur mes données réelles, puis je mélange aléatoirement les valeurs sur la carte (en gardant les positions fixes) pour créer une distribution aléatoire. Je calcule I sur cette distribution aléatoire, je répète 999 fois, puis je compare mon I observé aux 999 I aléatoires.
+
+**Interprétation de la p-value** : p \< 0.05 signifie autocorrélation significative, p \> 0.05 signifie que je ne peux pas rejeter l'hypothèse d'une distribution aléatoire.
+
+**Mise en garde** : Un I élevé mais non significatif ne permet pas de conclure. Je dois toujours rapporter à la fois la valeur de I et la p-value.
+:::
+
+------------------------------------------------------------------------
+
+## Visualisation : Diagramme de Moran
+
+![](images/moranplot.png){width="65%" fig-align="center"}
+
+Nuage de points : valeur vs. moyenne des voisins
+
+::: notes
+Le diagramme de Moran est un outil visuel très pédagogique. Axe horizontal : la valeur de l'observation (standardisée), axe vertical : la moyenne des valeurs des voisins (standardisée). Chaque point représente une observation.
+
+Si les points suivent la diagonale ascendante : autocorrélation positive (valeur élevée → voisins élevés). Si les points sont dispersés aléatoirement : pas d'autocorrélation. Si les points suivent une diagonale descendante : autocorrélation négative (rare).
+
+La pente de la droite de régression dans ce diagramme est directement liée à l'indice de Moran. **Limite** : C'est une vue globale. Il ne dit pas OÙ se trouvent les clusters. C'est là qu'interviennent les LISA.
+:::
+
+---
+
+## Les Indicateurs LISA {.center}
+
+------------------------------------------------------------------------
+
+## Qu'est-ce que les LISA ?
+
+**LISA** : Local Indicators of Spatial Association
+
+-   Décomposition **locale** de l'I de Moran global
+-   Identifie les **clusters spatiaux** locaux
+-   Détecte les **valeurs atypiques** spatiales
+
+::: notes
+L'I de Moran donne UNE valeur pour toute la zone d'étude : "il y a de l'autocorrélation globalement". Les LISA donnent UNE valeur PAR observation : "cette commune contribue beaucoup/peu à l'autocorrélation".
+
+Imagine que l'I de Moran soit élevé. Cela ne me dit pas : où sont les zones de valeurs élevées groupées ? Où sont les zones de valeurs faibles groupées ? Y a-t-il des valeurs atypiques ? Les LISA répondent à ces questions.
+
+**Analogie** : C'est comme la différence entre dire "la France a une température moyenne de 15°C" (global) et faire une carte météo qui montre les températures locales (local).
+
+Applications : en urbanisme pour identifier des poches de pauvreté, en santé publique pour détecter des clusters de maladies, en environnement pour localiser des zones de pollution.
+:::
+
+------------------------------------------------------------------------
+
+## L'indice de Moran local
+
+Pour chaque observation i :
+
+$$I_i = \frac{(x_i - \bar{x})}{\sigma^2} \sum_{j} w_{ij}(x_j - \bar{x})$$
+
+Mesure la **contribution locale** à l'autocorrélation globale
+
+::: notes
+Cette formule est plus simple que celle de l'I de Moran global. $(x_i - \bar{x})$ : écart de i par rapport à la moyenne, $(x_j - \bar{x})$ : écart du voisin j par rapport à la moyenne, $w_{ij}$ : pondération du voisinage.
+
+Ii est élevé quand l'observation i s'écarte beaucoup de la moyenne ET ses voisins s'écartent aussi beaucoup dans le même sens. Ii \> 0 : i et ses voisins sont similaires. Ii \< 0 : i est différent de ses voisins (valeur atypique).
+
+La somme (pondérée) de tous les Ii donne l'I de Moran global. C'est en ce sens que les LISA "décomposent" l'indice global.
+
+**Mise en garde** : Comme pour l'I global, il faut tester la significativité de chaque Ii par permutations. R calcule automatiquement tous ces indices.
+:::
+
+------------------------------------------------------------------------
+
+## Types de clusters (1/2)
+
+::::: columns
+::: {.column width="50%"}
+### Hot spots (HH)
+
+Valeur élevée entourée de valeurs élevées
+
+### Cold spots (LL)
+
+Valeur faible entourée de valeurs faibles
+:::
+
+::: {.column width="50%"}
+### Outliers (HL)
+
+Valeur élevée entourée de valeurs faibles
+
+### Outliers (LH)
+
+Valeur faible entourée de valeurs élevées
+:::
+:::::
+
+::: notes
+**Hot spots (HH)** : Une valeur élevée entourée de valeurs élevées. Exemples : un quartier riche dans une zone riche, une zone très polluée entourée de zones polluées. C'est le type de cluster le plus fréquent en cas d'autocorrélation positive.
+
+**Cold spots (LL)** : Une valeur faible entourée de valeurs faibles. Exemples : un quartier pauvre dans une zone pauvre, une zone peu peuplée entourée de zones peu peuplées. Le "pendant" du hot spot.
+
+**Outliers HL** : Valeur élevée isolée dans un environnement de valeurs faibles. Exemples : une commune riche dans une région pauvre, un commerce prospère dans une zone déprimée. Intéressant à étudier : pourquoi cette exception ?
+
+**Outliers LH** : Valeur faible isolée dans un environnement de valeurs élevées. Exemples : une poche de pauvreté dans un quartier riche, une zone non polluée dans une région polluée. Pourquoi cette "résistance" locale ?
+
+Ces 4 types correspondent aux 4 quadrants du diagramme de Moran.
+:::
+
+------------------------------------------------------------------------
+
+## Types de clusters (2/2)
+
+![](images/carte_lisa.png){width="75%" fig-align="center"}
+
+::: notes
+Cette carte illustre les 4 types de clusters sur des données réelles. Chaque couleur représente un type : généralement rouge pour HH (hot spots), bleu pour LL (cold spots), rose pour HL, bleu clair pour LH. Les zones en gris ou blanc sont non significatives.
+
+Les hot spots et cold spots forment souvent de grandes zones contiguës. Les outliers sont généralement plus isolés et dispersés. Une grande partie de la carte peut être non significative - c'est normal !
+
+**Mise en garde** : Ne pas confondre valeur élevée et hot spot. Une valeur élevée isolée sera un outlier HL, pas un hot spot. L'analyse LISA ne regarde pas la valeur elle-même, mais la valeur PAR RAPPORT à ses voisins.
+
+Avec une telle carte, je peux identifier les zones à fort/faible développement, repérer les anomalies qui méritent attention, cibler des politiques d'aménagement. Les résultats dépendent de la définition du voisinage (matrice W).
+:::
+
+------------------------------------------------------------------------
+
+## Interprétation des LISA
+
+**Utilité** :
+
+-   Identifier des **zones homogènes**
+-   Détecter des **anomalies spatiales**
+-   Guider les **politiques locales**
+-   Compléter l'analyse globale
+
+**Attention** : tenir compte des tests de significativité !
+
+::: notes
+Les hot spots et cold spots montrent où se regroupent des valeurs similaires. C'est utile pour définir des zones d'intervention prioritaires, comprendre la structure spatiale d'un phénomène.
+
+Les outliers sont souvent les plus intéressants : pourquoi cette commune est-elle différente ? Y a-t-il des facteurs explicatifs locaux ? Peut-on en tirer des leçons ?
+
+Les LISA ne remplacent pas l'I de Moran global, ils le complètent. Je fais : I de Moran (autocorrélation globale ?) puis LISA (où sont les clusters ?).
+
+**Mise en garde cruciale** : Seuls les Ii statistiquement significatifs doivent être interprétés. Avec de nombreuses observations, je fais de nombreux tests → risque de faux positifs. Une carte LISA devrait toujours montrer uniquement les clusters significatifs.
+:::
 
 
 ---
@@ -2139,6 +2397,7 @@ La régression linéaire nécessite :
 ::: r-stack
 ![](images/ouf.gif){width="600"}
 :::
+
 
 # Tableau Récapitulatif
 
@@ -2197,7 +2456,7 @@ Mes deux variables sont-elles qualitatives ?
 -   Contextualiser les résultats
 -   Mentionner les limites
 
----
+------------------------------------------------------------------------
 
 ## Significativité statistique ≠ Importance
 
