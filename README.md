@@ -21,3 +21,7 @@ Le module propose une évaluation reposant sur la remise de rendus intermédiair
 Lien vers jamovi : https://www.jamovi.org/download.html
 
 Lien vers Flourish : https://app.flourish.studio/login
+
+Lien vers Geoda : https://geodacenter.github.io/
+
+Lien vers Magrit : https://magrit.cnrs.fr/
